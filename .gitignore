@@ -1,0 +1,19 @@
+# Ignorar archivos de configuracion sensible
+.env
+.env.tailscale
+keys/id_ed25519_tailscale
+
+# Ignorar carpetas temporales y resultados
+work/
+tools/
+results/
+logs/
+tmp/
+
+# Ignorar archivos de depuracion y logs
+*.log
+sys_debug_*.log
+
+# Ignorar binarios descargados
+*.exe
+*.zip
